@@ -35,10 +35,21 @@ Instead of building one large project, this repository focuses on **small, conce
 - Dependency Injection
 - Bean Creation
 - Bean Scopes
-- Bean Initialization
 - Bean Lifecycle
+- Bean Initialization & Destruction
+- Constructor Injection
+- Setter Injection
+- Autowiring
+- @Qualifier
+- @Primary
+- @Lazy
 - Circular Dependency
 - Java-Based Configuration
+- XML-Based Configuration
+- Annotation-Based Configuration
+- Component Scanning
+- Stereotype Annotations
+- BeanFactory & ApplicationContext
 
 ---
 
@@ -47,6 +58,8 @@ Instead of building one large project, this repository focuses on **small, conce
 - MVC Architecture
 - Controllers
 - Request Mapping
+- Request Parameters
+- Path Variables
 - Model & View
 - View Resolution
 
@@ -54,21 +67,46 @@ Instead of building one large project, this repository focuses on **small, conce
 
 ## 🔗 Servlet
 
-- Servlet Basics
 - Servlet Lifecycle
 - HttpServletRequest
 - HttpServletResponse
 - Request Processing
+- Servlet Configuration
 
 ---
 
 ## 🚀 Spring Boot
 
 - Spring Boot Project Structure
-- Auto Configuration
 - Starter Dependencies
-- application.properties / application.yml
+- Auto Configuration
+- Configuration Files
+- Profiles
+- Logging
 - Maven Integration
+
+---
+
+## 🛡️ Spring Filters
+
+- Filter Lifecycle
+- Filter Chain
+- Request Validation Filter
+- Authentication & Authorization Filters
+- Logging Filters
+- Custom Filters
+
+---
+
+## ✅ DTO, Validation & Exception Handling
+
+- DTO Pattern
+- Request & Response DTOs
+- Bean Validation
+- Validation Annotations
+- Global Exception Handling
+- Custom Exceptions
+- Error Responses
 
 ---
 
