@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: Spring_Profile
+
+  profiles:
+    active: prod
+
+
+#  datasource:
+#    url:
+#    username:
+#    password:
+#
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        format_sql: true
