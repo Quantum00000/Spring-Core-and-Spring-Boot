@@ -218,12 +218,7 @@ Upcoming additions include:
 - Spring Data JPA
 - Hibernate
 - REST APIs
-- DTO Mapping
-- Validation
-- Exception Handling
-- Spring Profiles
-- Logging
-- Filters & Interceptors
+- Interceptors
 - Spring Security
 - JWT Authentication
 - Docker
