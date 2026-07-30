@@ -1,43 +1,73 @@
-# 🌱 Spring Core and Spring Boot
+# 🌱 Spring Core & Spring Boot
+
+<p align="center">
 
 ![Java](https://img.shields.io/badge/Java-17+-orange?style=for-the-badge&logo=openjdk)
-![Spring](https://img.shields.io/badge/Spring-Framework-6DB33F?style=for-the-badge&logo=spring)
+![Spring Framework](https://img.shields.io/badge/Spring-Framework-6DB33F?style=for-the-badge&logo=spring)
 ![Spring Boot](https://img.shields.io/badge/Spring-Boot-6DB33F?style=for-the-badge&logo=springboot)
 ![Maven](https://img.shields.io/badge/Maven-Build-red?style=for-the-badge&logo=apachemaven)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
-A structured collection of **Spring Core**, **Spring MVC**, **Servlet**, and **Spring Boot** examples created while learning the Spring ecosystem.
+</p>
 
-The goal of this repository is to understand Spring concepts through **small, focused projects** instead of one large application.
+A collection of **Spring Framework**, **Spring MVC**, **Servlet**, and **Spring Boot** projects created while learning the Spring ecosystem.
+
+Instead of building one large project, this repository focuses on **small, concept-oriented examples**, making it easier to understand each topic independently.
+
+---
+
+# ✨ Repository Highlights
+
+- 📚 Topic-wise Spring examples
+- 🧩 Independent Maven projects
+- 🌱 Beginner-friendly structure
+- 💻 IntelliJ IDEA compatible
+- 🚀 Easy to understand and extend
+- 📖 Ideal for interview preparation and revision
 
 ---
 
 # 📚 Topics Covered
 
-## Spring Core
-- IoC (Inversion of Control)
+## 🌿 Spring Core
+
+- Inversion of Control (IoC)
 - Dependency Injection
 - Bean Creation
+- Bean Scopes
 - Bean Initialization
 - Bean Lifecycle
 - Circular Dependency
-- Java Configuration
+- Java-Based Configuration
 
-## Spring MVC
+---
+
+## 🌐 Spring MVC
+
 - MVC Architecture
 - Controllers
-- View Resolution
 - Request Mapping
+- Model & View
+- View Resolution
 
-## Servlet
-- Basic Servlet Programming
+---
+
+## 🔗 Servlet
+
+- Servlet Basics
 - Servlet Lifecycle
-- HTTP Request & Response
+- HttpServletRequest
+- HttpServletResponse
+- Request Processing
 
-## Spring Boot
+---
+
+## 🚀 Spring Boot
+
 - Spring Boot Project Structure
 - Auto Configuration
-- Configuration Files
+- Starter Dependencies
+- application.properties / application.yml
 - Maven Integration
 
 ---
@@ -55,28 +85,33 @@ Spring-Core-and-Spring-Boot
     ├── Beans_LifeCycle
     ├── Circular_Dependency
     ├── Spring_MVC
-    └── Servlet
+    ├── Servlet
+    └── ...
 ```
 
-Each folder is an independent Maven project demonstrating one specific Spring concept.
+Each directory is a **standalone Maven project** demonstrating a specific Spring concept.
 
 ---
 
 # 🛠 Tech Stack
 
-- Java
-- Spring Framework
-- Spring Boot
-- Spring MVC
-- Servlet API
-- Maven
+| Technology | Purpose |
+|------------|---------|
+| Java 17+ | Programming Language |
+| Spring Framework | Core Framework |
+| Spring Boot | Rapid Application Development |
+| Spring MVC | Web Applications |
+| Servlet API | Java Web Components |
+| Maven | Dependency Management |
 
 ---
 
 # ⚙ Prerequisites
 
+Before running the projects, make sure you have:
+
 - Java 17 or above
-- Maven
+- Apache Maven
 - IntelliJ IDEA / Eclipse
 - Git
 
@@ -84,10 +119,16 @@ Each folder is an independent Maven project demonstrating one specific Spring co
 
 # 🚀 Getting Started
 
-Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/Quantum00000/Spring-Core-and-Spring-Boot.git
+```
+
+Move into the repository
+
+```bash
+cd Spring-Core-and-Spring-Boot
 ```
 
 Open any project inside
@@ -96,68 +137,81 @@ Open any project inside
 MySpringTopicWisePrograms/
 ```
 
-Run
+Run using Maven
 
 ```bash
 mvn spring-boot:run
 ```
 
-or execute the main class from your IDE.
+or simply execute the **main class** from your IDE.
 
 ---
 
-# 📖 Learning Path
+# 📖 Recommended Learning Order
 
-It is recommended to study the projects in this order:
-
-1. IoC & Dependency Injection
-2. Spring Beans
-3. Bean Initialization
-4. Bean Lifecycle
-5. Circular Dependency
-6. Spring MVC
-7. Servlet
-8. Spring Boot
+1. IoC (Inversion of Control)
+2. Dependency Injection
+3. Spring Beans
+4. Bean Initialization
+5. Bean Lifecycle
+6. Circular Dependency
+7. Spring MVC
+8. Servlet
+9. Spring Boot
 
 ---
 
 # 🎯 Purpose
 
-This repository is intended for
+This repository is designed for:
 
-- Students learning Spring Framework
-- Beginners exploring Spring Boot
-- Interview preparation
-- Java backend developers
-- Anyone who prefers concept-based learning
+- 🎓 Students learning Spring Framework
+- 🌱 Beginners starting Spring Boot
+- 💼 Java Backend Developers
+- 📚 Interview Preparation
+- 🔄 Quick Revision of Spring Concepts
 
 ---
 
-# 💡 Future Additions
+# 🛣 Roadmap
+
+Upcoming additions include:
 
 - Spring Data JPA
+- Hibernate
 - REST APIs
-- Spring Security
+- DTO Mapping
 - Validation
 - Exception Handling
-- Hibernate
+- Spring Profiles
+- Logging
+- Filters & Interceptors
+- Spring Security
 - JWT Authentication
 - Docker
 - Microservices
+- Testing (JUnit & Mockito)
 
 ---
 
-# 🤝 Contributions
+# 🤝 Contributing
 
-Suggestions and improvements are always welcome.
+Contributions, suggestions, and improvements are welcome!
 
-If you find an issue or have an idea, feel free to open an Issue or submit a Pull Request.
+If you'd like to improve this repository:
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Open a Pull Request
 
 ---
 
 # ⭐ Support
 
-If this repository helped you learn Spring, consider giving it a ⭐ on GitHub.
+If this repository helped you learn Spring, please consider giving it a **⭐ Star**.
+
+It motivates me to continue adding more Spring examples and tutorials.
 
 ---
 
@@ -165,8 +219,14 @@ If this repository helped you learn Spring, consider giving it a ⭐ on GitHub.
 
 **Aman Kumar**
 
-GitHub: https://github.com/Quantum00000
+- GitHub: https://github.com/Quantum00000
 
 ---
 
-## Happy Learning! 🚀
+<p align="center">
+
+### Happy Coding! 🚀
+
+**Learn • Practice • Build • Share**
+
+</p>
