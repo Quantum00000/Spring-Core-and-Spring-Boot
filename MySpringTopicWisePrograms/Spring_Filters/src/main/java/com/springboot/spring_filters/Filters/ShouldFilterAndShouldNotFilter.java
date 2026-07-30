@@ -13,9 +13,8 @@ public class ShouldFilterAndShouldNotFilter extends OncePerRequestFilter {
     @Override
     protected boolean shouldNotFilter(HttpServletRequest request){
         String uri = request.getRequestURI();
-        return !uri.startsWith("/api**");
-        // !uri.startsWith("/api**");---------------- any extend of example--/api/../../../...
-        //!uri.startsWith("/api*");------------------ only one extend example---/api/..
+        return !uri.startsWith("/api*");
+        
     }
 
     @Override
