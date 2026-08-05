@@ -50,6 +50,9 @@ Instead of building one large project, this repository focuses on **small, conce
 - Component Scanning
 - Stereotype Annotations
 - BeanFactory & ApplicationContext
+- Aspect Oriented Programming(AOP)
+- Decorator And Proxies
+- Interceptors
 
 ---
 
@@ -218,7 +221,6 @@ Upcoming additions include:
 - Spring Data JPA
 - Hibernate
 - REST APIs
-- Interceptors
 - Spring Security
 - JWT Authentication
 - Docker
